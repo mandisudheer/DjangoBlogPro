@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from Personal.views import (
+from Myblog.Personal.views import (
 crete_home_screen,
 )
 urlpatterns = [
