@@ -1,0 +1,8 @@
+{% extends 'base.html'%}
+
+{% block body%}
+This is home page
+{% for val in Name%}
+{% include 'snippets/snipt.html' with value=val%}
+{% endfor %}
+{% endblock %}
